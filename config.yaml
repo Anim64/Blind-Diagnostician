@@ -1,0 +1,4 @@
+models:
+  vlm:
+    name: gpt-4o-vlm
+    temperature: 0
