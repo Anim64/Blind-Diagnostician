@@ -1,6 +1,8 @@
 import yaml
 
-from Config.Schemas import AppConfig
+
+from ModelConfig.Schemas import AppConfig
+
 
 def load_config(path: str) -> AppConfig:
     with open(path, "r") as f:
